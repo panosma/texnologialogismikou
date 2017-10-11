@@ -122,9 +122,19 @@ public class Calculator extends javax.swing.JFrame {
 
         jButton11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton11.setText(".");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
 
         jButton12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton12.setText("c");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
 
         jButton13.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton13.setText("+");
@@ -160,6 +170,11 @@ public class Calculator extends javax.swing.JFrame {
 
         jButton17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton17.setText("=");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -321,6 +336,53 @@ public class Calculator extends javax.swing.JFrame {
         String Enternumber = jTextField1.getText() + jButton6.getText();
         jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+                   String answer;
+        secondnum = Double.parseDouble(jTextField1.getText());
+        if (operations == "+")
+        {
+            
+            result = firstnum + secondnum;
+            answer = String.format("%.0f",result);
+           jTextField1.setText(answer);
+            
+        }
+        else if (operations == "-")
+        {
+            
+            result = firstnum - secondnum;
+            answer = String.format("%.0f",result);
+            jTextField1.setText(answer);
+            
+        }
+        else if (operations == "*")
+        {
+            
+            result = firstnum * secondnum;
+            answer = String.format("%.0f",result);
+            jTextField1.setText(answer);
+            
+        }
+        else if (operations == "/")
+        {
+            
+            result = firstnum / secondnum;
+            answer = String.format("%.0f",result);
+            jTextField1.setText(answer);
+            
+        }
+     
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+       jTextField1.setText("");
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        String EnterNumber = jTextField1.getText() + jButton11.getText();
+        jTextField1.setText(EnterNumber);
+    }//GEN-LAST:event_jButton11ActionPerformed
 
     
     public static void main(String args[]) {
