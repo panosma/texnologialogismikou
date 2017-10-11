@@ -1,8 +1,11 @@
 public class Calculator extends javax.swing.JFrame {
 
     
-    
-    
+    double firstnum;
+    double secondnum;
+    double result;
+    String operations;
+     
     public Calculator() {
         initComponents();
     }
@@ -78,15 +81,35 @@ public class Calculator extends javax.swing.JFrame {
 
         jButton13.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton13.setText("+");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
 
         jButton14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton14.setText("-");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
 
         jButton15.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton15.setText("*");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
 
         jButton16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton16.setText("/");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
 
         jButton17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton17.setText("=");
@@ -181,6 +204,30 @@ public class Calculator extends javax.swing.JFrame {
         String Enternumber = jTextField1.getText() + jButton3.getText();
         jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        firstnum = Double.parseDouble(jTextField1.getText());
+        jTextField1.setText("");
+        operations="+";
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        firstnum = Double.parseDouble(jTextField1.getText());
+        jTextField1.setText("");
+        operations="-";
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        firstnum = Double.parseDouble(jTextField1.getText());
+        jTextField1.setText("");
+        operations="/";
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        firstnum = Double.parseDouble(jTextField1.getText());
+        jTextField1.setText("");
+        operations="*";
+    }//GEN-LAST:event_jButton15ActionPerformed
 
     
     public static void main(String args[]) {
