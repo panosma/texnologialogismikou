@@ -10,7 +10,7 @@ public class Calculator extends javax.swing.JFrame {
         initComponents();
     }
 
-    
+     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -276,48 +276,48 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        String Enternumber = textDisplay.getText() + Bttn1.getText();
-        textDisplay.setText(Enternumber);
+        String Enternumber = jTextField1.getText() + jButton1.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        String Enternumber = textDisplay.getText() + Bttn2.getText();
-        textDisplay.setText(Enternumber);
+        String Enternumber = jTextField1.getText() + jButton2.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        String Enternumber = textDisplay.getText() + Bttn4.getText();
-        textDisplay.setText(Enternumber);
+        String Enternumber = jTextField1.getText() + jButton4.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        String Enternumber = textDisplay.getText() + Bttn0.getText();
-        textDisplay.setText(Enternumber);
+        String Enternumber = jTextField1.getText() + jButton10.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-         String Enternumber = textDisplay.getText() + Bttn9.getText();
-        textDisplay.setText(Enternumber);
+         String Enternumber = jTextField1.getText() + jButton9.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-       String Enternumber = textDisplay.getText() + Bttn8.getText();
-        textDisplay.setText(Enternumber);
+       String Enternumber = jTextField1.getText() + jButton8.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        String Enternumber = textDisplay.getText() + Bttn7.getText();
-        textDisplay.setText(Enternumber);
+        String Enternumber = jTextField1.getText() + jButton7.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        String Enternumber = textDisplay.getText() + Bttn5.getText();
-        textDisplay.setText(Enternumber);
+        String Enternumber = jTextField1.getText() + jButton5.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        String Enternumber = textDisplay.getText() + Bttn6.getText();
-        textDisplay.setText(Enternumber);
+        String Enternumber = jTextField1.getText() + jButton6.getText();
+        jTextField1.setText(Enternumber);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     
