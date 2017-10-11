@@ -380,7 +380,7 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        String EnterNumber = jTextField1.getText() + jButton11.getText();
+        String EnterNumber = jTextField1.getText() + ".";
         jTextField1.setText(EnterNumber);
     }//GEN-LAST:event_jButton11ActionPerformed
 
