@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "577672972877",
+    "firebase_url": "https://katerina-app.firebaseio.com",
+    "project_id": "katerina-app",
+    "storage_bucket": "katerina-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577672972877:android:d98a9b8290dddee6",
+        "android_client_info": {
+          "package_name": "myapp.baz.com.katerina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577672972877-l6mjdlr3qi4k4lutc1e34fbm9snp88f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myapp.baz.com.katerina",
+            "certificate_hash": "54931a70549e541c4b12568122addf4034b20fcf"
+          }
+        },
+        {
+          "client_id": "577672972877-nsdbvhpckmlenbvfeiektq7c750fh5vj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQth_WE8MqrWcM5UvwMd5n66B6CDn5DcM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577672972877-nsdbvhpckmlenbvfeiektq7c750fh5vj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
