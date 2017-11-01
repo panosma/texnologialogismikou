@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "887867778545",
+    "firebase_url": "https://marybase-d213d.firebaseio.com",
+    "project_id": "marybase-d213d",
+    "storage_bucket": "marybase-d213d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887867778545:android:ef5b934c6b97aa90",
+        "android_client_info": {
+          "package_name": "com.example.maria.tl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887867778545-ban5kmrdsinun3bqol0kvvv7nknfut4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maria.tl",
+            "certificate_hash": "2f7250c4f5918b1068954627a336a399bc8e75e4"
+          }
+        },
+        {
+          "client_id": "887867778545-h044qms1lfokdbt6ggs8fo24h0bk7mg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-Hcd_jzYyLBEJ-_oURXGZg6zYfkFe1iU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887867778545-h044qms1lfokdbt6ggs8fo24h0bk7mg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
