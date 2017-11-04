@@ -8,42 +8,24 @@ import android.widget.Button;
 
 public class Welcome_screen extends AppCompatActivity {
 
-    Button mButtonbutton2;
+    Button mButtonnext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_screen);
+        mButtonnext = (Button) findViewById(R.id.buttonnext);
     }
 
     @Override
-    protected void onStart() {
+    public void onStart() {
         super.onStart();
+
+        mButtonnext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Welcome_screen.this,Home_screen.class));
+            }
+        });
     }
-
-    mButtonbutton2 = (Button) findViewById(R.id.button2);
-
-    Button.OnClickListener(new View.OnClickListener()
-
-    {
-        @Override
-        public void onClick (View.v) {
-            startActivity(new Intent(Welcome_screen.this, Home_screen.class));
-                                            }
-    })
-};
-
-
-
-
-
-
-//    Button.setOnClickListener(new View.OnClickListener() {
-//        @Override
-//                public void onClick(View.v) {
-//                startActivitie(new Intent(Welcome_screen.this, Home_screen.class));
-//        }
-//    });
-
-
-
+}
