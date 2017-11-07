@@ -1,0 +1,21 @@
+Bttnproliferation = new javax.swing.JButton();
+
+Bttnproliferation.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+
+Bttnproliferation.setText("*");
+
+Bttnproliferation.addActionListener(new java.awt.event.ActionListener() {
+    public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BttnproliferationActionPerformed(evt);
+    }
+});
+
+// Code adding the component to the parent container - not shown here
+
+
+
+private void BttnproliferationActionPerformed(java.awt.event.ActionEvent evt) {                                                  
+       firstnum = Double.parseDouble(textDisplay.getText());
+        textDisplay.setText("");
+        operations="*";
+    }                  
