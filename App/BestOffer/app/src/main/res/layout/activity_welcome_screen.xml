@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bestoffer.tl.bestoffer.Welcome_screen">
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="141dp"
+        android:layout_height="64dp"
+        android:text="Next"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="252dp" />
+</android.support.constraint.ConstraintLayout>
