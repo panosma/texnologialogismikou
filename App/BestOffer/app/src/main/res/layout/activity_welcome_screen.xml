@@ -11,6 +11,11 @@
         android:layout_width="141dp"
         android:layout_height="64dp"
         android:text="Next"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="252dp" />
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="672dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="740dp" />
 </android.support.constraint.ConstraintLayout>

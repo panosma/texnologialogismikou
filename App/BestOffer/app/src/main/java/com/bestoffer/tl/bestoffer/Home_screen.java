@@ -1,7 +1,10 @@
 package com.bestoffer.tl.bestoffer;
 
-import android.support.v4.app.FragmentActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -14,6 +17,11 @@ public class Home_screen extends FragmentActivity implements OnMapReadyCallback 
 
     private GoogleMap mMap;
 
+   Button mButtonnext2;
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +30,9 @@ public class Home_screen extends FragmentActivity implements OnMapReadyCallback 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+       mButtonnext2 = (Button) findViewById(R.id.buttonnext2);
+
+
     }
 
 
@@ -43,4 +54,18 @@ public class Home_screen extends FragmentActivity implements OnMapReadyCallback 
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        mButtonnext2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Home_screen.this, Result_list.class));
+            }
+        });
+
+    }
+
 }

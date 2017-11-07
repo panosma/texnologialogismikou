@@ -37,7 +37,11 @@
 
         <activity
             android:name=".Home_screen"
-            android:label="@string/title_activity_home_screen"></activity>
+            android:label="@string/title_activity_home_screen" />
+        <activity android:name=".Result_list" />
+        <activity android:name=".Shop_info" />
+        <activity android:name=".Shop_adding" />
+        <activity android:name=".Favorites"></activity>
     </application>
 
 </manifest>
