@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "277330331894",
+    "firebase_url": "https://tl-2017-2018.firebaseio.com",
+    "project_id": "tl-2017-2018",
+    "storage_bucket": "tl-2017-2018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277330331894:android:00e0e8d9ebfd3c65",
+        "android_client_info": {
+          "package_name": "bestoffer.tl.com.bestoffer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277330331894-30i8s720l00m96aulm1mdhog6jbed4i3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bestoffer.tl.com.bestoffer",
+            "certificate_hash": "54931a70549e541c4b12568122addf4034b20fcf"
+          }
+        },
+        {
+          "client_id": "277330331894-3ul5iecvihuu5e2b7seast1n5o3hq4c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQtNQXAzYKe9OvWZFjMe5pYyBPUXY9dJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277330331894-3ul5iecvihuu5e2b7seast1n5o3hq4c2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

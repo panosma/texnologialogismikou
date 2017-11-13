@@ -29,6 +29,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,6 +40,8 @@ import static android.Manifest.permission.READ_CONTACTS;
  * A login screen that offers login via email/password.
  */
 public class Shop_editing extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+
+
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -66,6 +70,9 @@ public class Shop_editing extends AppCompatActivity implements LoaderCallbacks<C
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_editing);
+
+
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
@@ -92,7 +99,16 @@ public class Shop_editing extends AppCompatActivity implements LoaderCallbacks<C
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+
+
     }
+
+
+
+
+
+
+
 
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {

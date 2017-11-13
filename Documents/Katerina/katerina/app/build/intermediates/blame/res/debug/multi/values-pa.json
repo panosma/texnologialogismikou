@@ -1,0 +1,74 @@
+[
+    {
+        "outputFile": "C:\\Users\\kater\\AndroidStudioProjects\\katerina\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 209,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "C:\\Users\\kater\\.android\\build-cache\\439528786efde1d7dde04e4dc8f2d88b211f4fd7\\output\\res\\values-pa\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 209,
+                        "endOffset": 494
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\kater\\Documents\\texnologialogismikou\\Documents\\Katerina\\android\\katerina\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 209,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "C:\\Users\\kater\\.android\\build-cache\\439528786efde1d7dde04e4dc8f2d88b211f4fd7\\output\\res\\values-pa\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 209,
+                        "endOffset": 494
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\kater\\Documents\\texnologialogismikou\\Documents\\Katerina\\katerina\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pa\\values-pa.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 209,
+                    "endOffset": 310
+                },
+                "from": {
+                    "file": "C:\\Users\\kater\\.android\\build-cache\\439528786efde1d7dde04e4dc8f2d88b211f4fd7\\output\\res\\values-pa\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 209,
+                        "endOffset": 494
+                    }
+                }
+            }
+        ]
+    }
+]
