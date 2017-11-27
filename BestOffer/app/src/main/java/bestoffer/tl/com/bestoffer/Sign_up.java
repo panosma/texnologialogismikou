@@ -27,6 +27,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -40,6 +41,9 @@ import static android.Manifest.permission.READ_CONTACTS;
  * A login screen that offers login via email/password.
  */
 public class Sign_up extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+
+
+    private FirebaseAuth firebaseAuth;
 
 
 
@@ -77,7 +81,18 @@ public class Sign_up extends AppCompatActivity implements LoaderCallbacks<Cursor
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
 
+
+
         mFirebaseDatabaseReference = FirebaseDatabase.getInstance().getReference();
+
+
+
+
+        //FirebaseUser user = firebaseAuth.getCurrentUser();
+        //String uid = firebaseAuth.getUid();
+
+
+        //DatabaseReference uidRef = mFirebaseDatabaseReference.child("Users").child(uid);
 
 
 
@@ -364,4 +379,3 @@ public class Sign_up extends AppCompatActivity implements LoaderCallbacks<Cursor
         }
     }
 }
-
